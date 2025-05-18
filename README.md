@@ -25,7 +25,7 @@ This collection reflects my journey in competitive programming, highlighting pro
 
 For an in-depth analysis of my Codeforces performance, visit:
 
-- [Codeforces Visualizer](https://cfviz.netlify.app/)
+- [Codeforces Visualizer](https://cfviz.netlify.app/?handle=ansh001kt)
 - [CF Profile Analyzer](https://cf-pr-analyst.netlify.app/)
 
 ---
