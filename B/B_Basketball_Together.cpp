@@ -6,8 +6,6 @@
 //  \____/                                       
 
 #include<bits/stdc++.h>
-#include <ios>
-#include <iostream>
 using namespace std;
 #define ll                    long long int
 #define pb                    push_back
@@ -20,24 +18,14 @@ using namespace std;
 
 /*---------------------------------------------------------------CODE BEGINS ->!---------------------------------------------------------------------------*/
 
+void _code(){
+
+}
+
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-
-    ll n;cin>>n;
-    vll ithprice(n);
-    fo(i,n){
-        cin>>ithprice[i];
-    }
-    sort(ithprice.begin(),ithprice.end());
-    ll q;cin>>q;
-    vll limit(q);
-    fo(i,q){
-        cin>>limit[i];
-    }
-
-    fo(i,q){
-        ll ans = upper_bound(ithprice.begin(), ithprice.end(), limit[i]) - ithprice.begin();
-        cout<<ans<<endl;    
+    ll t;
+    cin>>t;
+    while(t--) {
+        _code();
     }
 }
