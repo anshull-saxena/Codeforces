@@ -9,7 +9,7 @@ This collection reflects my journey in competitive programming, highlighting pro
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/anshulsaxena0)
 - 🏆 [Codeforces Profile](https://codeforces.com/profile/ansh001kt)
-- 📧 Email: [anshulsaxena@example.com](mailto:anshulsaxena@example.com)
+- 📧 Email: [anshulsaxena@example.com](mailto:f20221041@hyderabad.bits-pilani.ac.in)
 
 ---
 
