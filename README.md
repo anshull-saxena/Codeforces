@@ -13,34 +13,54 @@ This collection reflects my journey in competitive programming, highlighting pro
 
 ---
 
-## 📊 GitHub Stats
+## 📊 Problem Statistics
 
-![Anshul's GitHub Stats](https://github-readme-stats.vercel.app/api?username=anshulsaxena&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=anshulsaxena&layout=compact&theme=radical)
-
----
-
-## 🧠 Codeforces Analytics
-
-For an in-depth analysis of my Codeforces performance, visit:
-
-- [Codeforces Visualizer](https://cfviz.netlify.app/?handle=ansh001kt)
-- [CF Profile Analyzer](https://cf-pr-analyst.netlify.app/)
+This repository contains solutions organized by problem difficulty and contest type.
 
 ---
 
 ## 📁 Repository Structure
 
-Each folder corresponds to a specific contest or problem set, organized as follows:
+The repository is organized in two main ways:
+
+### 1. By Problem Difficulty
+Problems are categorized by their typical Codeforces difficulty levels:
 
 ```
-├── Contest_Name/
-│   ├── ProblemA.cpp
-│   ├── ProblemB.cpp
+├── A/                    # Div2 A problems (easier)
+│   ├── A_Bit.cpp
+│   ├── A_Boys_and_Girls.cpp
+│   ├── A_Comparing_Strings.cpp
+│   ├── A_Dima_and_Friends.cpp
+│   ├── A_Forked.cpp
+│   ├── A_Pythagorean_Theorem_II.cpp
+│   └── A_Red_Versus_Blue.cpp
+├── B/                    # Div2 B problems (medium)
+│   ├── B_Basketball_Together.cpp
+│   ├── B_Calendar.cpp
+│   ├── B_Chemistry.cpp
+│   ├── B_Increase_and_Decrease.cpp
+│   ├── B_Interesting_drink.cpp
+│   └── B_Luke_is_a_Foodie.cpp
+├── C/                    # Div2 C problems (harder)
+│   └── C_Lucky_Permutation_Triple.cpp
+├── D/                    # Div2 D problems (advanced)
+│   └── D_Rectangle_Puzzle_II.cpp
+├── E/                    # Div2 E problems (expert)
+├── F/                    # Div2 F problems (master)
+└── ...
+```
+
+### 2. By Contest
+Specific contest solutions are organized by contest number:
+
+```
+├── Contests/
+│   ├── Contest_304/
+│   │   ├── A_Pythagorean_Theorem_II.cpp
+│   │   ├── B_Calendar.cpp
+│   │   └── C_Lucky_Permutation_Triple.cpp
 │   └── ...
-├── README.md
-└── LICENSE
 ```
 
 ---
@@ -54,12 +74,68 @@ To explore the solutions:
    git clone https://github.com/anshulsaxena/codeforces-solutions.git
    ```
 
-2. Navigate to the desired contest folder:
+2. Navigate to problems by difficulty:
    ```bash
-   cd codeforces-solutions/Contest_Name
+   cd codeforces-solutions/A    # For A-level problems
+   cd codeforces-solutions/B    # For B-level problems
    ```
 
-3. Open and review the solution files.
+3. Or browse specific contests:
+   ```bash
+   cd codeforces-solutions/Contests/Contest_304
+   ```
+
+4. Compile and run any solution:
+   ```bash
+   g++ -o solution A_Problem_Name.cpp
+   ./solution
+   ```
+
+---
+
+## 🧠 Codeforces Analytics
+
+For an in-depth analysis of my Codeforces performance, visit:
+
+- [Codeforces Visualizer](https://cfviz.netlify.app/?handle=ansh001kt)
+- [CF Profile Analyzer](https://cf-pr-analyst.netlify.app/)
+
+---
+
+## 💡 Problem Solving Approach
+
+Each solution includes:
+- Clean, well-commented C++ code
+- Efficient algorithms optimized for competitive programming
+- Standard template library (STL) usage
+- Time and space complexity considerations
+
+---
+
+## 🔧 Code Template
+
+Most solutions use a standard competitive programming template:
+
+```cpp
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long int
+#define pb push_back
+#define vi vector<int>
+#define vll vector<ll>
+#define fo(i, n) for (long long i = 0; i < n; i++)
+// Problem-specific solution code
+```
+
+---
+
+## 📈 Progress Tracking
+
+- **A Problems**: 7 solved
+- **B Problems**: 6 solved  
+- **C Problems**: 1 solved
+- **D Problems**: 1 solved
+- **Contest Participation**: Contest 304 and others
 
 ---
 
@@ -70,4 +146,4 @@ Feel free to open issues or submit pull requests for improvements.
 
 ---
 
-*This README was generated to provide an overview of my Codeforces problem-solving journey and to facilitate collaboration and learning.*
+*This repository showcases my competitive programming journey on Codeforces, organized for easy navigation and learning.*
