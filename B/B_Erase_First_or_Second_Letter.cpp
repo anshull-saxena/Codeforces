@@ -18,8 +18,36 @@ using namespace std;
 
 /*---------------------------------------------------------------CODE BEGINS ->!---------------------------------------------------------------------------*/
 
-void _code(){
+void processString(string s, set<string>& setS) {
+    if (s.size() <= 1) {  
+        return;
+    }
+    
+    setS.insert(s);
+    
+    int len = s.size();
+    
+    string temp = s.substr(1); 
+    string temp2 = s.substr(0, 1) + s.substr(2);  
 
+    if (!temp.empty()) setS.insert(temp);
+    if (!temp2.empty()) setS.insert(temp2);
+    
+    processString(temp, setS);
+    processString(temp2, setS);
+}
+
+void _code(){
+    int n;cin>>n;
+    set<string> setS;
+    string s;cin>>s;
+    processString(s, setS);
+
+
+    if(s.size()==1){cout<<1<<endl;}else {
+            cout<<setS.size()<<endl;
+
+    }
 }
 
 int main(){
