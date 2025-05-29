@@ -71,18 +71,18 @@ To explore the solutions:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/anshulsaxena/codeforces-solutions.git
+   git clone https://github.com/anshull-saxena/Codeforces.git
    ```
 
 2. Navigate to problems by difficulty:
    ```bash
-   cd codeforces-solutions/A    # For A-level problems
-   cd codeforces-solutions/B    # For B-level problems
+   cd Codeforces/A    # For A-level problems
+   cd Codeforces/B    # For B-level problems
    ```
 
 3. Or browse specific contests:
    ```bash
-   cd codeforces-solutions/Contests/Contest_304
+   cd Codeforces/Contests/Contest_304
    ```
 
 4. Compile and run any solution:
