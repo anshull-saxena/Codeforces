@@ -132,17 +132,10 @@ using namespace std;
 ## 📈 Progress Tracking
 
 - **A Problems**: 7 solved
-- **B Problems**: 6 solved  
+- **B Problems**: 7 solved
 - **C Problems**: 1 solved
 - **D Problems**: 1 solved
 - **Contest Participation**: Contest 304 and others
-
----
-
-## 📬 Feedback & Contributions
-
-I welcome feedback and discussions on these solutions.  
-Feel free to open issues or submit pull requests for improvements.
 
 ---
 
