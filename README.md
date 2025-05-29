@@ -132,7 +132,7 @@ using namespace std;
 ## 📈 Progress Tracking
 
 - **A Problems**: 7 solved
-- **B Problems**: 7 solved
+- **B Problems**: 8 solved
 - **C Problems**: 1 solved
 - **D Problems**: 1 solved
 - **Contest Participation**: Contest 304 and others
