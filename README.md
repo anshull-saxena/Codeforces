@@ -131,8 +131,8 @@ using namespace std;
 
 ## 📈 Progress Tracking
 
-- **A Problems**: 7 solved
-- **B Problems**: 9 solved
+- **A Problems**: 8 solved
+- **B Problems**: 10 solved
 - **C Problems**: 2 solved
 - **D Problems**: 1 solved
 - **Contest Participation**: Contest 304 and others
