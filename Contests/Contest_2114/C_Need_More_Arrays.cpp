@@ -19,6 +19,20 @@ using namespace std;
 /*---------------------------------------------------------------CODE BEGINS ->!---------------------------------------------------------------------------*/
 
 void _code(){
+int n;cin>>n;
+int a[n]; 
+
+int last = -1;
+int counter = 0;
+fo(i,n) {
+    cin>>a[i];
+    if(a[i]-last>1){
+        last=a[i];
+        counter++;
+    }
+}
+cout<<counter<<endl;
+
 
 }
 
